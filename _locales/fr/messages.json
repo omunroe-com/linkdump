@@ -15,9 +15,26 @@
     "message": "Entrepôt nettoyé",
     "description": "Notify the user that the storage has been cleared."
   },
+  "notificationStorageCopied": {
+    "message": "Entrepôt copié",
+    "description": "Notify the user that the storage has been copied to the clipboard."
+  },
   "popupButtonClear": {
     "message": "Nettoyer l'entrepôt",
     "description": "Label for the clear dump button"
+  },
+  "popupButtonDefaultCopy": {
+    "message": "Copier dans le presse-papier",
+    "description": "Label for the default copy button"
+  },
+  "popupButtonCopy": {
+    "message": "Copier dans le presse-papier en $TYPE$",
+    "description": "Label for the typed copy buttons",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
   },
   "popupButtonDefaultDownload": {
     "message": "Télécharger",

@@ -10,12 +10,21 @@
 <body>
   <div id="popup-content"></div>
   <div class="btn-group dropup">
-    <button type="button" class="btn btn-sm btn-primary download" data-type="text"></button>
+    <button type="button" class="btn btn-sm btn-primary" data-type="text" data-action="download"></button>
     <button type="button" class="btn btn-sm btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
     <div class="dropdown-menu btn-sm">
-      <a class="dropdown-item download btn-sm" href="#" data-type="text"></a>
-      <a class="dropdown-item download btn-sm" href="#" data-type="markdown"></a>
-      <a class="dropdown-item download btn-sm" href="#" data-type="html"></a>
+      <a class="dropdown-item btn-sm" href="#" data-type="text" data-action="download"></a>
+      <a class="dropdown-item btn-sm" href="#" data-type="markdown" data-action="download"></a>
+      <a class="dropdown-item btn-sm" href="#" data-type="html" data-action="download"></a>
+    </div>
+  </div>
+  <div class="btn-group dropup">
+    <button type="button" class="btn btn-sm btn-primary" data-type="text" data-action="copy"></button>
+    <button type="button" class="btn btn-sm btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+    <div class="dropdown-menu btn-sm">
+      <a class="dropdown-item btn-sm" href="#" data-type="text" data-action="copy"></a>
+      <a class="dropdown-item btn-sm" href="#" data-type="markdown" data-action="copy"></a>
+      <a class="dropdown-item btn-sm" href="#" data-type="html" data-action="copy"></a>
     </div>
   </div>
   <div>

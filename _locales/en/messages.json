@@ -15,9 +15,26 @@
     "message": "Storage cleared",
     "description": "Notify the user that the storage has been cleared."
   },
+  "notificationStorageCopied": {
+    "message": "Storage copied",
+    "description": "Notify the user that the storage has been copied to the clipboard."
+  },
   "popupButtonClear": {
     "message": "Clear dump",
     "description": "Label for the clear dump button"
+  },
+  "popupButtonDefaultCopy": {
+    "message": "Copy to clipboard",
+    "description": "Label for the default copy button"
+  },
+  "popupButtonCopy": {
+    "message": "Copy to clipboard as $TYPE$",
+    "description": "Label for the typed copy buttons",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    }
   },
   "popupButtonDefaultDownload": {
     "message": "Download",
